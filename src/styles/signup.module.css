@@ -1,0 +1,38 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background {
+  background-image: url(../Assets/gradient.png),
+    url("https://www.solidbackgrounds.com/images/3840x2160/3840x2160-black-solid-color-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 767px) {
+  .background {
+    display: none
+  }
+}
+
+.flexDisplay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cohortImage {
+  object-fit: scale-down;
+  width: 100%;
+  height: 100%;
+}
+
+.columnFlex {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+}
+
